@@ -1,6 +1,8 @@
 import os
 import openai
 
+#  OpenAI documentation: https://beta.openai.com/docs/api-reference?lang=python
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 while True:
